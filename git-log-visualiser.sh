@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 commits_file=stats.txt
