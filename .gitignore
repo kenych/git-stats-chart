@@ -1,0 +1,14 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# IntelliJ           #
+######################
+*.iml
+*.ipr
+*.iws
+.idea/
+
+no_commit.txt
+chart.ht*

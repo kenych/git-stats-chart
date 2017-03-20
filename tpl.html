@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Chart.js"></script>
+</head>
+
+<body>
+
+<h5>var_repo</h5>
+
+<canvas id="x" width="800" height="300"></canvas>
+<script>
+				new Chart(document.getElementById("x").getContext("2d")).Line({
+					labels : [var_x],
+					datasets : [
+						{
+							fillColor : "rgba(220,220,220,2)",
+							strokeColor : "rgba(220,220,220,2)",
+							pointColor : "rgba(220,220,220,2)",
+							pointStrokeColor : "#fff",
+							data : [var_y]
+						}
+					]
+				});
+</script>
+</body>
+</html>
